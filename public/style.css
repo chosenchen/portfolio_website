@@ -23,7 +23,7 @@ html {
   font-size: 13pt;
 }
 
-.primary-nav a {
+.primary-nav a{
   color: white;
   padding-bottom: 5px;
   -webkit-transition: border 50ms linear;

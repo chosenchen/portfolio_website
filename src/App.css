@@ -2,10 +2,9 @@ body {
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
-a {
-text-decoration: none;
-color: white;
-}
+/* a {
+  color: white;
+} */
 
 * {
 box-sizing: border-box;

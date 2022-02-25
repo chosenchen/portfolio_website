@@ -1,8 +1,4 @@
 import React from 'react';
-import { ReactComponent as Developerdesign} from '../../images/developerdesign.svg';
-import { ReactComponent as Passion} from '../../images/passion.svg';
-import { ReactComponent as Innovativesolutions} from '../../images/innovativesolutions.svg';
-import { ReactComponent as Responsivedesign} from '../../images/responsivedesign.svg';
 
 const Summary = () => {
     return (
@@ -12,7 +8,7 @@ const Summary = () => {
                 <div className = "development-summary">
                     <div className = "col-sm-1 col-md-1">
                         <div className = "development-img">
-                            <Developerdesign className="img-responsive"></Developerdesign>
+                            <img className = "img-responsive" src = "./images/developerdesign.svg" alt=''/>
                         </div>
                     </div>
 
@@ -27,7 +23,7 @@ const Summary = () => {
                 <div className = "responsive-summary">
                     <div className = "col-sm-1 col-md-1 col-sm-offset-2 col-md-offset-2">
                         <div className = "responsive-img">
-                            <Responsivedesign className="img-responsive"></Responsivedesign>
+                            <img className = "img-responsive" src = "./images/responsivedesign.svg" alt=''/>
                         </div>
                     </div>
 
@@ -44,7 +40,7 @@ const Summary = () => {
                 <div className = "ideas-summary">
                     <div className = "col-sm-1 col-md-1">
                         <div className = "idea-img">
-                            <Innovativesolutions className="img-responsive"></Innovativesolutions>
+                            <img className = "img-responsive" src = "./images/innovativesolutions.svg" alt=''/>
                         </div>
                     </div>
 
@@ -58,7 +54,7 @@ const Summary = () => {
 
                 <div className = "passion-summary">
                     <div className = "col-sm-1 col-md-1 col-sm-offset-2 col-md-offset-2">
-                        <Passion className="img-responsive"></Passion>
+                        <img className = "img-responsive" src = "./images/passion.svg" alt=''/>
                     </div>
 
                     <div className = "col-sm-4 col-md-4">
