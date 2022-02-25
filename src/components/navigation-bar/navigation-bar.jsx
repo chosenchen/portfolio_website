@@ -7,7 +7,7 @@ import './navigation-bar.scss';
 const NavigationBar =()=>{
     return (
     <div className = "navigation">
-        <Link to='/index' className = "logo-container">
+        <Link to='/home' className = "logo-container">
             <Logo className="logo"></Logo>
         </Link>
 
