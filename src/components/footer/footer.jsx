@@ -1,4 +1,6 @@
 import React from 'react';
+import {ReactComponent as Facebook} from '../../images/facebook.svg';
+import { Link } from 'react-router-dom';
 
 import './footer.scss';
 
@@ -10,7 +12,10 @@ const Footer =() =>{
                 <div className = "media-links">
                     <div className = "col-sm-1 col-md-1 col-sm-offset-4 col-md-offset-4">
                         <div className = "facebook">
-                            <a href = "/"><img className = "img-responsive" alt='' src = "../../images/facebook.svg"/></a>
+                            <Link to='/'>
+                                <Facebook className = "img-responsive"/>
+                            </Link>
+
                         </div>
                     </div>
 

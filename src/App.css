@@ -1,13 +1,13 @@
 body {
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-  padding: 20px 60px;
 }
 
 a {
 text-decoration: none;
-color: black;
+color: white;
 }
 
 * {
 box-sizing: border-box;
 }
+
