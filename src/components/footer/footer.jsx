@@ -10,25 +10,25 @@ const Footer =() =>{
                 <div className = "media-links">
                     <div className = "col-sm-1 col-md-1 col-sm-offset-4 col-md-offset-4">
                         <div className = "facebook">
-                        <a href = "#"><img className = "img-responsive" src = "./images/facebook.svg"/></a>
+                        <a href = "/"><img className = "img-responsive" src = "./images/facebook.svg" alt=''/></a>
                         </div>
                     </div>
 
                     <div className = "col-sm-1 col-md-1">
                         <div className = "linkedin">
-                            <a href = "/"><img className = "img-responsive" src = "images/linkedin.svg"/></a>
+                            <a href = "/"><img className = "img-responsive" src = "images/linkedin.svg" alt=''/></a>
                         </div>
                     </div>
 
                     <div className = "col-sm-1 col-md-1">
                         <div className = "pinterest">
-                            <a href = "/"><img className = "img-responsive" src = "images/pinterest.svg"/></a>
+                            <a href = "/"><img className = "img-responsive" src = "images/pinterest.svg" alt=''/></a>
                         </div>
                     </div>
 
                     <div className = "col-sm-1 col-md-1">
                         <div className = "email-icon">
-                            <a href = "/"><img className = "img-responsive" src = "images/email.svg"/></a>
+                            <a href = "/"><img className = "img-responsive" src = "images/email.svg" alt=''/></a>
                         </div>
                     </div>
                 </div>
@@ -77,16 +77,16 @@ const Footer =() =>{
 
                 <div className = "col-sm-2 col-md-2 text-center">
                     <div className = "resume-footer">
-                        <h4><a href = "#">Resume</a></h4>
+                        <h4><a href = "/">Resume</a></h4>
                         <ul>
-                            <li><a href = "#">Download</a></li>
+                            <li><a href = "/">Download</a></li>
                         </ul>
                     </div>
                 </div>
 
                 <div className = "col-sm-2 col-md-2 text-center">
                     <div className = "contact-footer">
-                        <h4><a href = "#">Contact</a></h4>
+                        <h4><a href = "/">Contact</a></h4>
                     </div>
                 </div>
             </div>
