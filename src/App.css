@@ -2,9 +2,10 @@ body {
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
-/* a {
+a:focus{
   color: white;
-} */
+  text-decoration: none;
+}
 
 * {
 box-sizing: border-box;

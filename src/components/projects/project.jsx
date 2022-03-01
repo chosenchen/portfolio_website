@@ -1,9 +1,13 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import { projects } from '../js';
 
 import './projects.scss';
 
 
 const Projects =() => {
+    useEffect(()=> {
+        projects();
+    },[])
     return (
         <div className = "projects" id="projects">
         <div className = "container-fluid">
